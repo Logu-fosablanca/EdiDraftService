@@ -1,13 +1,12 @@
 
 
-// import  {EdiDraft} from '../models/EdiDraft';
-
-import {create} from './createDraftController';
-// var _ = require('underscore');
 
 
+import {create} from './createController.js';
 
-exports.createDraft = function(req,res){
+
+
+export async function createDraft (req,res){
 
 	var draft=req.body;
 	

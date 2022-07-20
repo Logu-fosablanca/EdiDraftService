@@ -1,5 +1,5 @@
-import  {EdiDraft} from '../models/EdiDraft';
-import generateResponse from '../helpers/genResponse';
+import  {EdiDraft} from '../models/EdiDraft.js';
+import generateResponse from '../helpers/genResponse.js';
 
 
 export async function get (params,res){
