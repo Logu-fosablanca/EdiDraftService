@@ -1,4 +1,4 @@
-import { EdiDraft } from "../models/EdiDraft";
+import { EdiDraft } from "../models/EdiDraft.js";
 
 
 
